@@ -60,6 +60,7 @@ dependencies {
     debugImplementation(libs.androidx.compose.composeUiTooling)
     api(libs.bundles.composelibs )
     api(libs.bundles.image.libs)
+    api(libs.bundles.room.libs)
 
     //multi-thread
     api(libs.bundles.asyncronous.libs)
