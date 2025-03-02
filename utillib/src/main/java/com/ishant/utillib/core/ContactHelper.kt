@@ -9,6 +9,7 @@ import androidx.annotation.RequiresPermission
 import com.ishant.utillib.core.model.ContactEntity
 import com.ishant.utillib.core.repository.contact.ContactRepository
 import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 import javax.inject.Singleton
@@ -17,12 +18,13 @@ import javax.inject.Singleton
 class ContactHelper @Inject constructor(val repository: ContactRepository){
 
     @RequiresPermission(Manifest.permission.READ_CONTACTS)
-    fun CoroutineScope.fetchAndSaveContacts(application: Application) {
-        launch {
+    fun fetchAndSaveContacts(application: Application) {
+        CoroutineScope(Dispatchers.IO).launch {
             val contacts = getContacts(application.applicationContext)
             repository.saveContacts(contacts)
         }
     }
+    fun getAllContacts() = repository.getPaginatedContacts()
     private fun getContacts(context: Context): List<ContactEntity> {
         val contactsList = mutableListOf<ContactEntity>()
         val contentResolver = context.contentResolver
