@@ -56,6 +56,8 @@ dependencies {
     api(libs.core.ktx)
     api(libs.appcompat)
     api(libs.material)
+    implementation(libs.lay.services.location)
+    implementation(libs.androidx.window)
     testImplementation(libs.junit)
     debugImplementation(libs.androidx.compose.composeUiTooling)
     api(libs.bundles.composelibs )
