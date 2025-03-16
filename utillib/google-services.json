@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "153597673767",
+    "project_id": "utillib-cf79d",
+    "storage_bucket": "utillib-cf79d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153597673767:android:1e129309af0d865d8b6902",
+        "android_client_info": {
+          "package_name": "com.techhub.utillib"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzIVEMd8S8TMOI838HwrZAGOgn_RKmw84"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

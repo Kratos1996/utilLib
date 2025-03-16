@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8384671c-6e63-46af-bdfc-6d6cbc69afc8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/AndroidProjectSystem.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/techhub/util/TestApplication.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-services.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/techhub/util/core/PreciseCountdownTimer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/techhub/util/core/RegexHelper.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/techhub/util/core/UtilApplication.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/techhub/util/core/encryption/AESHelper.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/techhub/util/core/encryption/RSAHelper.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/techhub/util/core/firebase/RemoteConfigHelper.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/kotlinc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/../app/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/androidTest/java/com/ishant/util/ExampleInstrumentedTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/androidTest/java/com/techhub/util/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/ishant/util/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/techhub/util/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/ishant/util/ui/theme/Color.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/techhub/util/ui/theme/Color.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/ishant/util/ui/theme/Theme.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/techhub/util/ui/theme/Theme.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/ishant/util/ui/theme/Type.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/techhub/util/ui/theme/Type.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/ishant/util/viewmodel/ContactViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/techhub/util/viewmodel/ContactViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/test/java/com/ishant/util/ExampleUnitTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/test/java/com/techhub/util/ExampleUnitTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/../build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/libs.versions.toml" beforeDir="false" afterPath="$PROJECT_DIR$/../gradle/libs.versions.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/../settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/androidTest/java/com/ishant/utillib/ExampleInstrumentedTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/androidTest/java/com/techhub/util/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ishant/utillib/core/ContactHelper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/techhub/util/core/ContactHelper.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ishant/utillib/core/DateUtil.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/techhub/util/core/DateUtil.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ishant/utillib/core/FileReadUtil.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/techhub/util/core/FileReadUtil.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ishant/utillib/core/FileWriteUtil.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/techhub/util/core/FileWriteUtil.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ishant/utillib/core/HelperFoldableDevice.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/techhub/util/core/HelperFoldableDevice.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ishant/utillib/core/LocationHelper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/techhub/util/core/LocationHelper.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ishant/utillib/core/PermissionUtil.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/techhub/util/core/PermissionUtil.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ishant/utillib/core/SilentModeHelper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/techhub/util/core/SilentModeHelper.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ishant/utillib/core/constant/MimeTypeConstants.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/techhub/util/core/constant/MimeTypeConstants.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ishant/utillib/core/database/ContactDatabase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/techhub/util/core/database/ContactDatabase.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ishant/utillib/core/database/dao/ContactDao.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/techhub/util/core/database/dao/ContactDao.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ishant/utillib/core/di/AppModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/techhub/util/core/di/AppModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ishant/utillib/core/model/ContactEntity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/techhub/util/core/model/ContactEntity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ishant/utillib/core/repository/contact/ContactRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/techhub/util/core/repository/contact/ContactRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ishant/utillib/core/repository/contact/ContactRepositoryImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/techhub/util/core/repository/contact/ContactRepositoryImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ishant/utillib/ExampleUnitTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techhub/util/ExampleUnitTest.kt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2uM7Sp9j3h1aPqRXArg2LMHxeAz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "android.gradle.sync.needed": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "I:/Android/2024/android/Util/utillib",
+    "show.migrate.to.gradle.popup": "false"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8384671c-6e63-46af-bdfc-6d6cbc69afc8" name="Changes" comment="" />
+      <created>1742046591466</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1742046591466</updated>
+    </task>
+    <servers />
+  </component>
+</project>

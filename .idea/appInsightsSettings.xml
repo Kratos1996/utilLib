@@ -22,10 +22,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="PLACEHOLDER" />
-                  <option name="mobileSdkAppId" value="" />
-                  <option name="projectId" value="" />
-                  <option name="projectNumber" value="" />
+                  <option name="appId" value="com.ishant.util" />
+                  <option name="mobileSdkAppId" value="1:153597673767:android:697138e248e391db8b6902" />
+                  <option name="projectId" value="utillib-cf79d" />
+                  <option name="projectNumber" value="153597673767" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />

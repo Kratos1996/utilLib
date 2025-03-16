@@ -1,4 +1,4 @@
-import org.apache.commons.logging.LogFactory
+import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
 plugins {
     alias(libs.plugins.com.android.library)
@@ -9,13 +9,19 @@ plugins {
     id("maven-publish")
 }
 
+
 android {
-    namespace = "com.ishant.utillib"
+    namespace = "com.techhub.utillib"
     compileSdk = 35
 
     defaultConfig {
+        configurations.all {
+            resolutionStrategy {
+                exclude(group = "com.intellij", module = "annotations")
+            }
+            exclude(module = "bcprov-jdk18on")
+        }
         minSdk = 29
-
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles("consumer-rules.pro")
     }
@@ -31,28 +37,44 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
-    kotlinOptions {
-        jvmTarget = "1.8"
-        /* freeCompilerArgs = listOf("-Xjvm-default=compatibility")*/
+    kotlin {
+        compilerOptions {
+            jvmTarget.set(JvmTarget.JVM_17)
+            freeCompilerArgs = listOf("-Xjvm-default=all-compatibility")
+            languageVersion.set(org.jetbrains.kotlin.gradle.dsl.KotlinVersion.KOTLIN_2_1)
+            apiVersion.set(org.jetbrains.kotlin.gradle.dsl.KotlinVersion.KOTLIN_2_1)
+        }
     }
-    lint {
-        /*disable = "NullSafeMutableLiveData"*/
-        disable += "NullSafeMutableLiveData"
+
+
+    packaging {
+        resources {
+            excludes += "META-INF/DEPENDENCIES"
+            excludes += "META-INF/NOTICE"
+            excludes += "META-INF/LICENSE"
+            excludes += "META-INF/LICENSE.txt"
+            excludes += "META-INF/NOTICE.txt"
+            excludes += "META-INF/**/*"
+        }
     }
+    lint { disable += "NullSafeMutableLiveData" }
+
     androidResources {
         additionalParameters.add("--warn-manifest-validation")
+        additionalParameters.add("--warning-mode all")
     }
 
     buildFeatures { // Enables Jetpack Compose for this module
         compose = true
+        buildConfig = true
     }
 }
 
 dependencies {
-
+    implementation(libs.annotations)
     api(libs.core.ktx)
     api(libs.appcompat)
     api(libs.material)
@@ -63,7 +85,8 @@ dependencies {
     api(libs.bundles.composelibs )
     api(libs.bundles.image.libs)
     api(libs.bundles.room.libs)
-
+    api(libs.bundles.firebase.libs.common)
+    api(libs.annotations)
     //multi-thread
     api(libs.bundles.asyncronous.libs)
 }
@@ -71,6 +94,11 @@ dependencies {
 tasks.register<Jar>("sourceJar") {
     from(android.sourceSets.getByName("main").java.srcDirs)
     archiveClassifier.set("sources")
+}
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
 }
 publishing {
     repositories {
